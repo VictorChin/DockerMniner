@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  minerconsole:
+    image: ${DOCKER_REGISTRY}minerconsole
+    build:
+      context: .\MinerConsole
+      dockerfile: Dockerfile
