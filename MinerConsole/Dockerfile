@@ -3,7 +3,7 @@ FROM ubuntu:18.04
 RUN apt-get update \
 && apt-get -qq --no-install-recommends install \
 ca-certificates \
-&& apt-get install unzip
+&& apt-get install unzip \
 wget \
 && rm -r /var/lib/apt/lists/*
 
